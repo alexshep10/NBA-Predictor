@@ -1,0 +1,75 @@
+{
+  "training": {
+    "home_mae": 11.75592437992251,
+    "away_mae": 11.28471365827855,
+    "train_years": [
+      2015,
+      2022
+    ],
+    "feature_count": 35
+  },
+  "playoff_score_metrics": {
+    "playoff_home_mae": 10.356100082397461,
+    "playoff_away_mae": 10.752403259277344,
+    "playoff_games": 166
+  },
+  "bracket_metrics": {
+    "seasons_evaluated": 2,
+    "champion_accuracy": 0.5,
+    "mean_champion_hit_rate": 0.16,
+    "by_season": [
+      {
+        "season": "2022-23",
+        "actual_champion": "DEN",
+        "predicted_champion": "PHI",
+        "champion_correct": false,
+        "champion_hit_rate": 0.12
+      },
+      {
+        "season": "2023-24",
+        "actual_champion": "BOS",
+        "predicted_champion": "BOS",
+        "champion_correct": true,
+        "champion_hit_rate": 0.2
+      }
+    ]
+  },
+  "series_metrics": {
+    "by_round": {
+      "west_r1": {
+        "series_accuracy": 0.4625,
+        "series_predictions": 80
+      },
+      "east_r1": {
+        "series_accuracy": 0.55,
+        "series_predictions": 80
+      },
+      "west_r2": {
+        "series_accuracy": 1.0,
+        "series_predictions": 4
+      },
+      "east_r2": {
+        "series_accuracy": 0.5,
+        "series_predictions": 2
+      },
+      "west_conf_finals": {
+        "series_accuracy": 0.6666666666666666,
+        "series_predictions": 3
+      },
+      "east_conf_finals": {
+        "series_accuracy": 0.75,
+        "series_predictions": 4
+      },
+      "finals": {
+        "series_accuracy": 0.5,
+        "series_predictions": 2
+      }
+    },
+    "calibration": {
+      "brier_score": 0.22265625,
+      "mean_predicted_prob": 0.734375,
+      "actual_win_rate": 0.625,
+      "samples": 16
+    }
+  }
+}
